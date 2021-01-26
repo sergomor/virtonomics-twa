@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.virtonomics.twa",
+    "sha256_cert_fingerprints": ["AD:3F:7A:61:DB:7F:DA:AA:58:43:D3:5C:47:2C:2B:62:3B:F9:68:FC:69:0D:0A:1B:49:CB:CA:7C:F7:DA:69:25"]
+  }
+}]
