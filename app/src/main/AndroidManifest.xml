@@ -1,6 +1,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bentostarter.bentostarterdemo">
+    package="com.virtonomics.twa">
 
     <application
         android:allowBackup="true"
