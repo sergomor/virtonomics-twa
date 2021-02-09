@@ -15,6 +15,7 @@
     <string name="app_name">Virtonomics</string>
     <string name="launch_url">https://virtonomics.com</string>
     <string name="host_name">virtonomics.com</string>
+    <string name="extra_headers">Extra Headers</string>
     <!-- A list of strings containing the additional origins to be validated with Digital Asset
          Links. Each domain needs to have its own domain.com/.well-known/assetlinks.json -->
     <string-array name="additional_trusted_origins">

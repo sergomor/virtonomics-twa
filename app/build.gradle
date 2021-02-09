@@ -24,12 +24,12 @@ android {
         applicationId "com.virtonomics.twa"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 5
-        versionName "1.4"
+        versionCode 7
+        versionName "1.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
                 hostName: "virtonomics.com",
-                defaultUrl: "https://virtonomics.com",
+                defaultUrl: "https://virtonomics.com/?utm-source=twa",
                 launcherName: "Virtonomics",
                 assetStatements: '[{ "relation": ["delegate_permission/common.handle_all_urls"], ' +
                         '"target": {"namespace": "web", "site": "https://virtonomics.com"}}]'
@@ -51,4 +51,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.github.GoogleChrome.custom-tabs-client:customtabs:d08e93fce3'
+    //implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //implementation 'androidx.browser:browser:1.2.0'
 }
