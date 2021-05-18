@@ -5,18 +5,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="${launcherName}"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TwaSplash">
+        android:theme="@style/AppTheme">
 
         <meta-data
             android:name="asset_statements"
-            android:value="${assetStatements}" />
+            android:value="@string/asset_statements" />
 
-        <activity android:name="android.support.customtabs.trusted.LauncherActivity"
-            android:label="${launcherName}">
+        <activity android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
+            android:label="@string/app_name">
             <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="${defaultUrl}" />
+                android:value="@string/launch_url" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
